@@ -1,0 +1,30 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.5)
+    dotenv (2.5.0)
+    messagebird-rest (1.4.1)
+    mustermann (1.0.3)
+    rack (2.0.5)
+    rack-protection (2.0.4)
+      rack
+    semantic_logger (4.3.0)
+      concurrent-ruby (~> 1.0)
+    sinatra (2.0.4)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.4)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv (~> 2.5)
+  messagebird-rest (~> 1.4)
+  semantic_logger (~> 4.3)
+  sinatra (~> 2.0)
+
+BUNDLED WITH
+   1.16.6
